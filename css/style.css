@@ -44,6 +44,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'GoyangIlsan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /*
 font-family: 'Playfair Display', serif;
 font-family: 'Lato', sans-serif;
@@ -62,7 +68,7 @@ h1 {
 }
 
 h4 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'GoyangIlsan', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
@@ -87,7 +93,7 @@ h4:before {
 ==================================================*/
 
 body {
-    font-family: 'KOTRA_GOTHIC', sans-serif;
+    font-family: 'GoyangIlsan';
     font-size: 14px;
     line-height: 24px;
 }
@@ -1095,7 +1101,12 @@ padding-top:10px;}
     height:230px;
     overflow: hidden;
 }
-
+.portfolio_item img{
+    transition: transform 0.3s;
+}
+.img-responsive:hover{
+    transform: scale(1.1);
+}
 
 .portfolio_bg{background:url(../img/portfolio/01.jpg);}
 .category{ display: inline-block; margin-left:6px; font-size: 16px; color: #ccc;}
