@@ -1101,10 +1101,10 @@ padding-top:10px;}
     height:230px;
     overflow: hidden;
 }
-.portfolio_item img{
+#projects .portfolio_item>img{
     transition: transform 0.3s;
 }
-.img-responsive:hover{
+#projects .portfolio_item>img:hover{
     transform: scale(1.1);
 }
 
