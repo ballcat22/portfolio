@@ -601,10 +601,16 @@ a.active {
     background-color: #1b00966e;
 }
 .iconcolor2{
-    background-color: #0052966e;
+    background-color: #0041966e;
 }
 .iconcolor3{
+    background-color: #0078966e;
+}
+.iconcolor4{
     background-color: #0096886e;
+}
+.iconcolor5{
+    background-color: #00963e6e;
 }
 /* skill section
 ==================================================*/
